@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700,800");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 800px;
+  width: 1800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  position: absolute;
+  top: 60px;
+  height: 80px;
+  width: 100vw;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: #fff;
+  padding-left: 100px;
+}
+
+section {
+  position: relative;
+  top: 50px;
+  height: 500px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+footer {
+  position: absolute;
+  bottom: 20px;
+  height: 120px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input[type="text"] {
+  height: 35px;
+  width: 220px;
+  border-radius: 5px;
+  border: 1px solid #c2beab;
+  outline: none;
+  background-color: #c2beab;
+  padding-left: 8px;
+}
+
+button {
+  height: 35px;
+  width: 35px;
+  border-radius: 5px;
+  border: 1px solid #c2beab;
+  outline: none;
+  background-color: #c2beab;
+}
+
+.search-poke,
+.search-id {
+  height: 120px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.name-poke,
+.id-poke {
+  font-size: 35px;
+  text-shadow: 0 0 12px rgb(0 0 0 / 25%);
+}
+
+.type {
+  height: 100px;
+  width: 250px;
+  position: relative;
+  bottom: 250px;
+  left: 290px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  height: 300px;
+  width: 250px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.line {
+  position: relative;
+  left: 200px;
+  height: 500px;
+  width: 5px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0px 36px 38px rgba(0, 0, 0, 0.07),
+    0px 26.1844px 25.6129px rgba(0, 0, 0, 0.0566562),
+    0px 18.225px 16.5656px rgba(0, 0, 0, 0.04725),
+    0px 11.9531px 10.2793px rgba(0, 0, 0, 0.0404687),
+    0px 7.2px 6.175px rgba(0, 0, 0, 0.035),
+    0px 3.79688px 3.67383px rgba(0, 0, 0, 0.0295312),
+    0px 1.575px 2.19688px rgba(0, 0, 0, 0.02275),
+    0px 0.365625px 1.16523px rgba(0, 0, 0, 0.0133437);
+}
+
+.primary-type {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #fff;
+  box-shadow: 0px 36px 38px rgba(0, 0, 0, 0.07),
+    0px 26.1844px 25.6129px rgba(0, 0, 0, 0.0566562),
+    0px 18.225px 16.5656px rgba(0, 0, 0, 0.04725),
+    0px 11.9531px 10.2793px rgba(0, 0, 0, 0.0404687),
+    0px 7.2px 6.175px rgba(0, 0, 0, 0.035),
+    0px 3.79688px 3.67383px rgba(0, 0, 0, 0.0295312),
+    0px 1.575px 2.19688px rgba(0, 0, 0, 0.02275),
+    0px 0.365625px 1.16523px rgba(0, 0, 0, 0.0133437);
+}
+
+.hp,
+.attack,
+.defense,
+.sp-attack,
+.sp-defense,
+.speed {
+  height: 30px;
+  margin: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #fff;
+  color: #96948c;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 36px 38px rgba(0, 0, 0, 0.07),
+    0px 26.1844px 25.6129px rgba(0, 0, 0, 0.0566562),
+    0px 18.225px 16.5656px rgba(0, 0, 0, 0.04725),
+    0px 11.9531px 10.2793px rgba(0, 0, 0, 0.0404687),
+    0px 7.2px 6.175px rgba(0, 0, 0, 0.035),
+    0px 3.79688px 3.67383px rgba(0, 0, 0, 0.0295312),
+    0px 1.575px 2.19688px rgba(0, 0, 0, 0.02275),
+    0px 0.365625px 1.16523px rgba(0, 0, 0, 0.0133437);
+}
